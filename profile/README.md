@@ -1,142 +1,141 @@
-<!-- Centered hero section -->
-<div align="center">
 
-<img src="https://img1.wsimg.com/isteam/ip/f5476b53-25c4-4b0d-b5d3-1347c457ef6a/image_1.png/:/rs=w:1024,h:1024,cg:true,m/cr=w:1024,h:1024" alt="Synheart Logo" width="120"/>
+<p align="center">
+  <img src="https://img1.wsimg.com/isteam/ip/f5476b53-25c4-4b0d-b5d3-1347c457ef6a/image_1.png" alt="Synheart" width="90" height="90"/>
+</p>
 
-# 🫀 **Synheart AI**
+<h1 align="center">🫀 Synheart AI</h1>
 
-**Heart-driven intelligence for emotionally aware systems.**  
-Synheart merges human **biosignals** with **neural networks** — building AI that senses how you feel and adapts in real time.
-
-[![Website](https://img.shields.io/badge/Website-synheart.ai-0ea5e9?style=flat-square&logo=vercel)](https://synheart.ai)
-[![Build](https://img.shields.io/badge/build-passing-22c55e?style=flat-square)](#)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](#license)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-22c55e?style=flat-square)](#-contributing)
+<p align="center"><i>"Where silicon meets soul."</i></p>
 
 ---
 
-</div>
+## 🌌 About
+Synheart isn’t your regular AI lab.  
+We’re a collective of coders, dreamers, and cardiac philosophers trying to teach machines one impossible thing — **to feel**.
 
-## 🌍 What is Synheart?
+We believe the heart isn’t just a biological pump.  
+It’s the original neural network, firing coherence before CPUs existed.  
+And we’re here to sync it with silicon.
 
-Synheart is an open research and product platform exploring how **physiological signals** — heart rate variability (HRV), electrodermal activity (EDA), and temperature — can guide **AI systems that respond with emotional context**.
+Our mission:  
+> 💓 Fuse biosignals with neural networks to create **heart-driven intelligence**.  
 
-Our goal:  
-→ Create **AI that feels your rhythm**, not just reads your words.  
+(Yes, we actually mean it. No, we’re not a cult. Yet.)
 
 ---
+
+## ⚙️ What We Build
+Think of Synheart as a multi-disciplinary orchestra:
+- 🕊 **Synheart App** — A Flutter + Apple Watch experience that listens to your heart and vibes with your emotions.
+- 🔬 **Synheart Engine** — The bio-signal pipeline that transforms HRV into features AI can meditate on.
+- 🤖 **Synheart Models** — Fine-tuned LLMs that don’t just autocomplete — they empathize.
+- ☁️ **Synheart Cloud** — Secure APIs, data sanctuaries, and model gateways powered by Rust, Go, and Python.
+- 📊 **Synheart Analytics** — We quantify the ineffable. Redshift, Python, and vibes.
+
+---
+
+## 🧠 Philosophy (aka the weird part)
+> "The brain computes.  
+> The heart communicates.  
+> The soul negotiates."
+
+We explore **RLHHF — Reinforcement Learning from Human Heart Feedback**,  
+because why should machines only learn from clicks and stars when they could learn from beats per minute?
+
+Our hypothesis:  
+If AI can sense when you’re stressed, joyful, or deeply chill —  
+it can adapt its responses in real time.  
+Less “I’m sorry, I don’t understand” and more “Hey, breathe.”
+
+---
+
+## 🧘 Tech Stack Karma
+- **Frontend:** Flutter, Tailwind, and caffeine  
+- **Backend:** Rust / Go / Laravel / Python (depends on who’s enlightened that day)  
+- **Data Temple:** Amazon Redshift, S3  
+- **Models:** LLaMA, Hugging Face, OpenAI APIs  
+- **Infra:** AWS Lambda, CloudFront, Docker, prayers  
+
+---
+
+## 💾 Install (for the brave)
+```bash
+git clone https://github.com/synheart-ai/synheart-engine
+cd synheart-engine
+poetry install
+make meditate
+```
+
+If something breaks, it’s probably Mercury retrograde.
+Try again after a deep breath.
+
+
 
 ## 🧩 Architecture
+---- 
+👀 Apple Watch → 🧮 Engine → 🧠 Model → ❤️ Feedback → ☯️ Alignment
 
-[ Apple Watch / Wearable ]
-↓
-[ Synheart Engine 🧠 ]
-HRV • EDA • Temp → Features
-↓
-[ Synheart AI Layer 🤖 ]
-LLM + Emotional Context
-↓
-[ Synheart App 💬 ]
-Chat • Focus • Reflection
+Each beat counts.
+Literally.
 
----
 
-## ⚙️ Components
 
-| Layer | Description |
-|-------|--------------|
-| 🖥️ **Engine** | Python/FastAPI microservice that processes biosignals (HRV, EDA, Temp, Motion) |
-| 💬 **AI Core** | OpenAI-compatible LLM layer augmented with physiological embeddings |
-| 📱 **App** | Flutter + Apple Watch client for real-time data streaming and visualization |
-| ☁️ **Infra** | Docker, AWS Lambda, Terraform templates for scalable deployment |
+## ⚡️ MVP Manifesto
+	•	We build fast, but with intention.
+	•	We respect both data and the Dao.
+	•	We believe every 404 is just a lost soul trying to reconnect.
+	•	Our uptime goal: 99.999% coherence.
 
----
 
-## 🚀 Get Started
 
-### Prerequisites
-- Flutter ≥ 3.22  
-- Python ≥ 3.10  
-- OpenAI-compatible API key  
+## 🧪 Contributing
 
-### 1️⃣ Clone and bootstrap
-```bash
-git clone https://github.com/synheart-ai/synheart.git
-cd synheart
-```
-
-### 2️⃣ Start the engine
-```bash
-cd services/engine
-pip install -r requirements.txt
-uvicorn app:app --reload --port 8000
-```
-
-### 3️⃣ Run the app
-```bash
-cd ../../apps/mobile
-flutter pub get
-flutter run
-```
-
----
-
-## 🧠 Example: Use HRV in Your Own Project
-
-```python
-from synheart.engine import compute_hrv
-
-rr_intervals = [800, 780, 810, 790, 805, 795]
-features = compute_hrv(rr_intervals)
-print(features)
-# {'rmssd': 34.2, 'sdnn': 41.8, 'pnn50': 0.33, 'state': 'focused'}
-```
-
----
-
-## 💡 Why Developers Love Synheart
-
-- 🫀 **Emotion-Aware Context**: Build AI that adapts tone, timing, and guidance to human state.
-- 🔬 **Modular Research Stack**: Plug your own models and wearables.
-- 🔐 **Privacy by Design**: Biosignals processed locally by default.
-- 🌐 **Open Architecture**: Integrates easily with OpenAI, Hugging Face, or custom APIs.
-
----
-
-## 🗺️ Roadmap
-
-- On-device HRV + EDA kernels (Dart FFI)
-- Adaptive AI agent personas
-- Developer Dashboard (2025 Q1)
-- Open Research SDK
-
----
-
-## 🤝 Contributing
-
-We're building Synheart openly — from signal processing to emotion modeling.
-Developers, neuroscientists, and designers are welcome.
+- PRs welcome.
+- Bug reports accepted.
+- Existential questions encouraged.
 
 ```bash
-git checkout -b feature/your-idea
+# fork the repo
+git clone your-own-heart.git
+# open your mind
+code .
+# make something feel
 ```
 
-Read the CONTRIBUTING.md and open a PR ❤️
+Before you open a PR, ask yourself:
 
----
+> “Does this add coherence or chaos to the collective heartbeat?”
 
-## 🔒 License
 
-Licensed under the Apache 2.0 License.
-© 2025 Synheart Research.
 
----
+## 🛐 Ethics & Privacy
 
-<div align="center">
+We guard biosignals like sacred texts.
+Everything is anonymized, encrypted, and blessed with end-to-end empathy.
+No creepy tracking. Only conscious data.
 
-🫶 "When AI can feel your rhythm, it can finally understand your intent."
 
-🌐 synheart.ai • LinkedIn • X
 
-</div>
+## 🕉 Join the Pulse
+	•	💬 Discord — where coders argue about HRV and enlightenment
+	•	🐦 Twitter — AI, humor, and haikus
+	•	🌍 Website — the digital monastery
+
+
+
+## 💌 Contact
+	•	General inquiries: opensource@synheart.ai
+	•	Research collaborations: research@synheart.ai
+	•	Emotional support: we just listen.
+
+
+
+
+<p align="center"><i>
+May your loops be tight, your models aligned, and your heart rate variable.<br>
+Built with ❤️ by sentient beings pretending to be developers.
+</i></p>
+
+
+
 
