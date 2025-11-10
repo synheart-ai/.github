@@ -25,12 +25,15 @@ Our mission:
 ---
 
 ## ⚙️ What We Build
-Think of Synheart as a multi-disciplinary orchestra:
-- 🕊 **Synheart App** — A Flutter + Apple Watch experience that listens to your heart and vibes with your emotions.
-- 🔬 **Synheart Engine** — The bio-signal pipeline that transforms HRV into features AI can meditate on.
-- 🤖 **Synheart Models** — Fine-tuned LLMs that don’t just autocomplete — they empathize.
-- ☁️ **Synheart Cloud** — Secure APIs, data sanctuaries, and model gateways powered by Rust, Go, and Python.
-- 📊 **Synheart Analytics** — We quantify the ineffable. Redshift, Python, and vibes.
+
+Think of Synheart as an integrated biosignal platform:
+- 🩺 Synheart Wear — Unified wearable SDK that streams biometric data (HR, HRV, steps) from multiple devices (Apple Watch,
+  Fitbit, Garmin, Whoop) into a standardized format across iOS, Android, and Flutter.
+- 🧠 Synheart Emotion — On-device emotion inference engine that transforms heart rate and RR intervals into real-time emotional
+  states (Calm, Amused, Stressed) using privacy-preserving Linear SVM models.
+- 📊 SWIP — Wellness Impact Protocol that quantifies how apps affect human physiology by fusing biosignals and emotion data into
+  actionable wellness scores (0-100), enabling developers to build technology that adapts to human well-being.
+
 
 ---
 
@@ -49,22 +52,6 @@ Less “I’m sorry, I don’t understand” and more “Hey, breathe.”
 
 ---
 
-## 🧘 Tech Stack Karma
-- **Frontend:** Flutter, Tailwind, and caffeine  
-- **Backend:** Rust / Go / Laravel / Python (depends on who’s enlightened that day)  
-- **Data Temple:** Amazon Redshift, S3  
-- **Models:** LLaMA, Hugging Face, OpenAI APIs  
-- **Infra:** AWS Lambda, CloudFront, Docker, prayers  
-
----
-
-## 💾 Install (for the brave)
-```bash
-git clone https://github.com/synheart-ai/synheart-engine
-cd synheart-engine
-poetry install
-make meditate
-```
 
 If something breaks, it’s probably Mercury retrograde.
 Try again after a deep breath.
@@ -73,7 +60,7 @@ Try again after a deep breath.
 
 ## 🧩 Architecture
 ---- 
-👀 Apple Watch → 🧮 Engine → 🧠 Model → ❤️ Feedback → ☯️ Alignment
+👀 Smart Watches → 🧮 Synheart Engines → 🧠 Model → ❤️ Feedback → ☯️ Alignment
 
 Each beat counts.
 Literally.
