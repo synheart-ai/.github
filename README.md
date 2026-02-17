@@ -3,8 +3,8 @@
 
 <img src="assets/SynHeart_logo_brand_Gradient.png" alt="Synheart Logo" width="380"/>
 
-**Human State Infrastructure for Modern Systems**  
-Privacy-preserving, on-device human-state signals derived from biosignals and behavior.
+**Make Computers Feel Human**  
+Beep Boop.
 
 [![Website](https://img.shields.io/badge/Website-synheart.ai-0ea5e9?style=flat-square)](https://synheart.ai)
 [![Build](https://img.shields.io/badge/build-passing-22c55e?style=flat-square)](#)
