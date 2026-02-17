@@ -1,7 +1,7 @@
 <!-- Centered hero section -->
 <div align="center">
 
-<img src="assets/SynHeart_logo_brand_Gradient.png" alt="Synheart Logo" width="380"/>
+<img src="assets/SynHeart_logo_brand_Gradient.png" alt="Synheart Logo" width="780"/>
 
 **Make Computers Feel Human**  
 Beep Boop.
