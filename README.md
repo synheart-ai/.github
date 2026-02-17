@@ -3,8 +3,9 @@
 
 <img src="assets/SynHeart_logo_brand_Gradient.png" alt="Synheart Logo" width="780"/>
 
-**Make Computers Feel Human**  
 Beep Boop.
+
+**Make Computers Feel Human**  
 
 [![Website](https://img.shields.io/badge/Website-synheart.ai-0ea5e9?style=flat-square)](https://synheart.ai)
 [![Build](https://img.shields.io/badge/build-passing-22c55e?style=flat-square)](#)
