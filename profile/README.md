@@ -53,12 +53,17 @@ Every layer is **composable, interoperable, and optional** — systems can adopt
 ## 🧩 Architecture Overview
 
 ```text
-[ Wearables & Devices ]
-Apple Watch • Pixel Watch • Sensors
+[ Wearables • Host Sensors • Ambient ]
+Apple Watch • Pixel Watch • Phone • Desktop • …
 ↓
-Synheart Wear (vendor-agnostic signal access)
+Signal Layer
+Synheart Wear • Sensor Agent • Edge
 ↓
-Human State Modules (Emotion • Focus • Behavior)
+Interpretation Layer
+Synheart Emotion • Focus • Behavior
+↓
+Session Layer
+Synheart Session
 ↓
 HSI (canonical human-state JSON)
 ↓
