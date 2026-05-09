@@ -37,6 +37,10 @@ Vendor- and platform-agnostic capture of multimodal signals.
 - **Synheart Sensor Agent** — host-device and ambient sensor capture
 - **Synheart Edge** — on-device kernels for low-level signal processing
 
+### ⚙️ Runtime
+The load-bearing piece — turns raw signals into derived features and real-time scores that the Interpretation Layer rides on.
+- **Synheart Engine** — high-performance signal processing pipeline. Closed-source binary; install via `synheart install runtime` (see [synheart-cli](https://github.com/synheart-ai/synheart-cli)).
+
 ### 🧩 Interpretation Layer
 Modules that turn signals into human state. All emit **HSI-compliant** outputs.
 - **Synheart Emotion** — emotional dynamics (stress, calm, arousal, valence) from physiological signals
@@ -58,6 +62,9 @@ Apple Watch • Pixel Watch • Phone • Desktop • …
 ↓
 Signal Layer
 Synheart Wear • Sensor Agent • Edge
+↓
+Runtime
+Synheart Engine
 ↓
 Interpretation Layer
 Synheart Emotion • Focus • Behavior
