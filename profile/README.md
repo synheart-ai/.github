@@ -8,9 +8,8 @@ Beep Boop.
 **Make Computers Feel Human**  
 
 [![Website](https://img.shields.io/badge/Website-synheart.ai-0ea5e9?style=flat-square)](https://synheart.ai)
-[![Build](https://img.shields.io/badge/build-passing-22c55e?style=flat-square)](#)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](#license)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-22c55e?style=flat-square)](#contributing)
+[![Source Available](https://img.shields.io/badge/source-available-22c55e?style=flat-square)](#contributing)
 
 </div>
 
@@ -86,6 +85,7 @@ Synheart is built to support **ethical, human-centered computing** from the grou
 
 ### These are us and our AI agents play around :) 
 
+- Rust (engine & core runtime)
 - Flutter
 - Kotlin
 - Swift
@@ -138,7 +138,7 @@ See `REPOSITORY_IMPLEMENTATION_GUIDELINES.md` for repo conventions.
 ## 🔒 License
 
 Licensed under the Apache 2.0 License.
-© 2025 Synheart AI.
+© 2025–2026 Synheart AI.
 
 ---
 
