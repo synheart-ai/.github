@@ -27,20 +27,26 @@ At the core of Synheart is **HSI** — a **canonical, language-agnostic JSON con
 
 ---
 
-## 🧠 Human State Modules
+## 🧠 The Synheart Stack
 
-Synheart provides modular interpreters that emit **HSI-compliant outputs**:
+Synheart is organized as composable layers. Each layer emits or consumes well-defined contracts — adopt only what you need.
 
-- **Synheart Emotion**  
-  Interprets emotional dynamics such as stress, calm, and arousal from physiological signals.
+### 📡 Signal Layer
+Vendor- and platform-agnostic capture of multimodal signals.
+- **Synheart Wear** — biosignals from wearables (Apple Watch, Pixel Watch, Garmin, …)
+- **Synheart Sensor Agent** — host-device and ambient sensor capture
+- **Synheart Edge** — on-device kernels for low-level signal processing
 
-- **Synheart Focus**  
-  Models cognitive engagement, attention stability, and mental load over time.
+### 🧩 Interpretation Layer
+Modules that turn signals into human state. All emit **HSI-compliant** outputs.
+- **Synheart Emotion** — emotional dynamics (stress, calm, arousal, valence) from physiological signals
+- **Synheart Focus** — cognitive engagement, attention stability, and mental load over time
+- **Synheart Behavior** — behavioral patterns from interaction and usage dynamics
 
-- **Synheart Behavior**  
-  Captures behavioral patterns derived from interaction and usage dynamics.
+### 🪟 Session Layer
+- **Synheart Session** — windowed human state with context, scoring, and continuity across activities
 
-All modules are **composable, interoperable, and optional** — systems can adopt only what they need.
+Every layer is **composable, interoperable, and optional** — systems can adopt only what they need.
 
 ---
 
