@@ -66,14 +66,12 @@ Your System (AI • Interfaces • Agents • Apps)
 ```
 
 
-## ⚙️ Core Components
+## ⚙️ Cross-cutting Components
 
 | Component | Description |
 | --- | --- |
 | 🧠 **HSI** | The authoritative human-state interface specification |
-| 🫀 **Synheart Wear** | Vendor-agnostic library for reading biosignals from wearables |
-| 🧩 **State Modules** | Emotion, Focus, and Behavior interpreters |
-| 📦 **SDKs** | Platform SDKs for on-device integration |
+| 📦 **SDKs** | Platform SDKs (Rust, Flutter, Kotlin, Swift) for on-device integration |
 | 📄 **Whitepapers** | Open research and technical documentation |
 
 ---
