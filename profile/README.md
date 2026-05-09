@@ -126,16 +126,12 @@ It is infrastructure for human-state-aware systems.
 
 ## 🤝 Contributing
 
-Synheart is built in the open.
+Synheart is **source-available** — the code is published for you to read, audit, and learn from, but development happens in-house.
 
-We welcome contributions across:
-- Signal processing
-- State modeling
-- SDKs
-- Specifications
-- Research & validation
+- ✅ **Issues welcome** — bug reports, questions, and feature requests via GitHub Issues on the relevant repository
+- ❌ **Pull requests are not accepted** at this time
 
-See `REPOSITORY_IMPLEMENTATION_GUIDELINES.md` for repo conventions, and the nearest package-level `CONTRIBUTING.md` for contribution workflow.
+See `REPOSITORY_IMPLEMENTATION_GUIDELINES.md` for repo conventions.
 
 ---
 
@@ -153,4 +149,3 @@ Licensed under the Apache 2.0 License.
 🌐 [synheart.ai](https://synheart.ai) • [LinkedIn](https://www.linkedin.com/company/synheart/) • [X](https://x.com/synheart_ai)
 
 </div>
-
