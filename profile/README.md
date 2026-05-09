@@ -39,7 +39,11 @@ Vendor- and platform-agnostic capture of multimodal signals.
 
 ### ⚙️ Runtime
 The load-bearing piece — turns raw signals into derived features and real-time scores that the Interpretation Layer rides on.
-- **Synheart Engine** — high-performance signal processing pipeline. Closed-source binary; install via `synheart install runtime` (see [synheart-cli](https://github.com/synheart-ai/synheart-cli)).
+- **Synheart Engine** — high-performance signal processing pipeline. Closed-source binary, distributed via the Synheart CLI:
+  ```bash
+  curl -fsSL https://synheart.sh/install | sh   # install the CLI
+  synheart install runtime                      # install the engine
+  ```
 
 ### 🧩 Interpretation Layer
 Modules that turn signals into human state. All emit **HSI-compliant** outputs.
