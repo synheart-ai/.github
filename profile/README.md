@@ -19,9 +19,9 @@ Beep Boop.
 
 **Synheart** is an open, privacy-preserving **Human State Interface (HSI) infrastructure** that enables software systems to understand human emotional, cognitive, and behavioral state — without relying on explicit user input.
 
-Instead of clicks, prompts, or surveys, Synheart derives **human state from biosignals and digital behavior**, processed locally and represented in a standardized format.
+Instead of clicks, prompts, or surveys, Synheart derives **human state from multimodal signals** — physiological, behavioral, and contextual — processed locally and represented in a standardized format.
 
-At the core of Synheart is **HSI 1.0** — a **canonical, language-agnostic JSON contract** for representing human state across independent systems.
+At the core of Synheart is **HSI** — a **canonical, language-agnostic JSON contract** for representing human state across independent systems.
 
 > HSI plays a role similar to GPS or HTTP — a shared communication standard for human state.
 
@@ -29,7 +29,7 @@ At the core of Synheart is **HSI 1.0** — a **canonical, language-agnostic JSON
 
 ## 🧠 Human State Modules
 
-Synheart provides modular interpreters that emit **HSI 1.0-compliant outputs**:
+Synheart provides modular interpreters that emit **HSI-compliant outputs**:
 
 - **Synheart Emotion**  
   Interprets emotional dynamics such as stress, calm, and arousal from physiological signals.
@@ -54,7 +54,7 @@ Synheart Wear (vendor-agnostic signal access)
 ↓
 Human State Modules (Emotion • Focus • Behavior)
 ↓
-HSI 1.0 (canonical human-state JSON)
+HSI (canonical human-state JSON)
 ↓
 Your System (AI • Interfaces • Agents • Apps)
 ```
@@ -64,7 +64,7 @@ Your System (AI • Interfaces • Agents • Apps)
 
 | Component | Description |
 | --- | --- |
-| 🧠 **HSI 1.0** | The authoritative human-state interface specification |
+| 🧠 **HSI** | The authoritative human-state interface specification |
 | 🫀 **Synheart Wear** | Vendor-agnostic library for reading biosignals from wearables |
 | 🧩 **State Modules** | Emotion, Focus, and Behavior interpreters |
 | 📦 **SDKs** | Platform SDKs for on-device integration |
@@ -75,7 +75,7 @@ Your System (AI • Interfaces • Agents • Apps)
 ## 🔐 Privacy by Design
 
 - **On-device processing by default**
-- **No raw biosignals required to leave the device**
+- **No raw signals required to leave the device**
 - **Derived state only (HSI outputs)**
 - **Consent-gated cloud sync (optional)**
 
@@ -116,7 +116,7 @@ It is infrastructure for human-state-aware systems.
 
 ## 🗺️ Roadmap
 
-- Expanded HSI schema (v1.x)
+- Evolving HSI schema
 - Additional state interpreters
 - On-device kernels
 - Reference integrations
